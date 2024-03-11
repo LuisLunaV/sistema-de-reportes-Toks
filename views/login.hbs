@@ -1,0 +1,65 @@
+{{!-- {{> loader}} --}}
+{{> header}} {{!-- {{> navbar}} --}}
+<div class="container d-flex justify-content-center pt-5">
+  <div class="row w-100 d-flex justify-content-center">
+    <div class="col-md-5">
+      <br />
+      <div class="card sombras-bottom">
+        <div class="card-body">
+           <div class="text-center m-4">
+          <h3>
+          <i class="bi bi-person-circle"></i> 
+            Login
+            </h3>
+            <hr>
+          </div>
+          <form class="form-login" method="post">
+            <div class="mb-3 row">
+              <div class="w-100">
+                <label for="userNempleado" class="col-4 col-form-label"
+                  >N.Empleado</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  name="User_NumEmpleado"
+                  id="inputNumEmpleado"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="mb-3 row">
+              <div class="w-100">
+                <label for="pass" class="col-4 col-form-label"
+                  >Contraseña</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  name="User_Password"
+                  id="inputPassword"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="mb-3 row">
+              <div class="d-grid gap-2 text-center">
+                <button type="submit" class="btn btn-secondary">Login</button>      
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="card-footer text-muted pb-3 d-grid gap-2 text-center">
+         <span class="mt-2 mb-2">¿No tienes una cuenta?
+                  <a href="/register">&nbsp;Registrate</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<p class="version">v.1.1.0</p>
+
+{{> footer}}

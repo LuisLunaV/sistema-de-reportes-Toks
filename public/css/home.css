@@ -1,0 +1,90 @@
+/* Resolcion para dispositivos moviles muy pequeños: */
+@media (max-width: 575px) {
+}
+
+/* Resolcion para dispositivos moviles pequeños: */
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+/* Resolcion para tablets: */
+@media (min-width: 768px) and (max-width: 991px) {
+  .radios-date {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .mis-servicios aside {
+    width: 40%;
+  }
+  .mis-servicios main {
+    width: 60%;
+  }
+}
+
+/* Resolcion para pc de escritorio:  */
+@media (min-width: 972px) {
+  .radios-date {
+    justify-content: space-evenly;
+  }
+  .mis-servicios aside {
+    height: 100%;
+    width: 30%;
+  }
+  .mis-servicios main {
+    height: 100%;
+    width: 70%;
+  }
+}
+
+main hr{
+  margin: 0;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.container-table {
+  height: 50%;
+  overflow: scroll;
+}
+.container-charts{
+  height: 50%;
+  overflow: scroll;
+}
+.mis-servicios {
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+}
+.mis-servicios aside {
+  background-color: #ecf0f1;
+  padding-top: 20px;
+}
+
+
+/* formulario */
+.radios-date {
+  display: flex;
+  flex-direction: row;
+}
+
+.calendar-start-end {
+  padding: 0 10px;
+}
+
+
+/* modal */
+
+.contain-view-report{
+  background-color: #ecf0f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+
+}
+
+.view-report{
+  background-color: #fff;
+  height: 70vh;
+  width: 90%;
+}
