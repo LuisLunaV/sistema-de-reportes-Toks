@@ -1,11 +1,12 @@
-import { detectWindow } from '../helper/detectWindow.js';
-import { apexChart } from '../util/apexChart.js'
+import { detectWindow,validateSessionToken, singOff } from '../helper/index.js';
+import { apexChart, loadedComponents } from '../util/index.js'
 import { formAuth } from '../events/index.js'
 class Main{
     constructor(){
         this.window = detectWindow();
+        this.loadedComponents = loadedComponents();
         this.auth();
-        this.chart();
+        this.home();
     }
 
     auth(){
@@ -14,10 +15,11 @@ class Main{
         }
     }
 
-    chart(){
-        console.log(this.window)
+    home(){
         if( this.window === '/home'){
+            validateSessionToken();
             apexChart();
+            singOff();
         }
     }
 

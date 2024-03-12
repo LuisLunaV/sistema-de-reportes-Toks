@@ -47,5 +47,6 @@ nav i {
 }
 
 .btn-drop {
+  padding: 12px;
   border-radius: 50% !important;
 }

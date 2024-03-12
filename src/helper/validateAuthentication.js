@@ -16,7 +16,6 @@ const compararPasswords =()=>{
 const  authFailure =( err )=>{
    const textBoxNumEmpleado = document.querySelector('#inputNumEmpleado'),
          textBoxPassword    = document.querySelector('#inputPassword');
-         console.log(textBoxNumEmpleado)
 
     if( err.User_error ){
         textBoxNumEmpleado.classList.add('shake-horizontal');

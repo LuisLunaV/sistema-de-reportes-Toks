@@ -18,8 +18,8 @@ export const formAuth =()=>{
             const { User_Password, createdAt, updatedAt, ...rest } = user;
     
             //Guardamos las credenciales de sesion
-            // sessionStorage.setItem('token', token);
-            // sessionStorage.setItem('user', JSON.stringify( rest ));
+            sessionStorage.setItem('token', token);
+            sessionStorage.setItem('user', JSON.stringify( rest ));
     
             window.location = '/home';
     
