@@ -1,0 +1,42 @@
+{
+  "code": 200,
+  "userError": "",
+  "exceptionMessage": "",
+  "success": true,
+  "Id_Emp": 1,
+  "Nombre": "Martin Hernandez",
+  "response": {
+    "Sucursales": [
+	  {
+        "Id_Local": 750,
+        "Nombre": "Shake Shack Reforma"
+      },
+      {
+        "Id_Local": 751,
+        "Nombre": "Shake Shack Arcos"      
+      },
+      {
+        "Id_Local": 752,
+        "Nombre": "Shake Shack Satelite"     
+      },
+      {
+        "Id_Local": 753,
+        "Nombre": "Shake Shack Coapa"
+      }
+	],
+    "Reportes":[
+	  {
+        "Id_Rep": 1,
+        "Nombre": "Popularidad"
+      },
+	  {
+        "Id_Rep": 2,
+        "Nombre": "Venta Por Día"
+      },
+	  {
+        "Id_Rep": 3,
+        "Nombre": "Gerencial"
+      }    
+	]
+  }
+}

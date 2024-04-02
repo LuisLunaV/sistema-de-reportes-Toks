@@ -1,4 +1,4 @@
-import { api } from './index.js';
+import { api } from '../index.js';
 
 const postAuthentication = async (data) => {
     try {

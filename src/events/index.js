@@ -1,4 +1,6 @@
-import { formAuth } from './Auth/formAuth.js';
+import { formAuth } from './auth/formAuth.js';
+import { eventDateRanges } from './dateRanges/formDateRanges.js';
 export{
-    formAuth
+    formAuth,
+    eventDateRanges
 }

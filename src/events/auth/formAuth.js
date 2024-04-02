@@ -1,4 +1,4 @@
-import { postAuthentication } from '../../services/api-post.js'
+import { postAuthentication } from '../../services/auth/api-post.js'
 import { formData, authFailure } from '../../helper/index.js';
 export const formAuth =()=>{
     const loginForm          = document.querySelector('.form-login'),

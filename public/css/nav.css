@@ -28,7 +28,7 @@ nav li {
 }
 
 nav i {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 /* utils */
@@ -47,6 +47,6 @@ nav i {
 }
 
 .btn-drop {
-  padding: 12px;
+  /* padding: 10px; */
   border-radius: 50% !important;
 }

@@ -1,133 +1,11 @@
-{{> loader}}
 {{> header}}
+{{> loader}}
 {{> navbar}}
 {{> modal}}
 
 <div class="mis-servicios">
 <aside>
-  <form id="form-reports" method="post">
-
-<div class="mb-3 radios-date">
-
-  <div class="form-check">
-  <input class="form-check-input" type="radio" name="flexRadioDefault" id="radioHoy" checked>
-  <label class="form-check-label" for="radioHoy">
-    Hoy
-  </label>
-</div>
-
-<!-- Elemento de radio para "Ayer" -->
-<div class="form-check">
-  <input class="form-check-input" type="radio" name="flexRadioDefault" id="radioAyer">
-  <label class="form-check-label" for="radioAyer">
-    Ayer
-  </label>
-</div>
-
-<!-- Elemento de radio para "Semana" -->
-<div class="form-check">
-  <input class="form-check-input" type="radio" name="flexRadioDefault" id="radioSemana">
-  <label class="form-check-label" for="radioSemana">
-    Semana
-  </label>
-</div>
-
-<!-- Elemento de radio para "Mes" -->
-<div class="form-check">
-  <input class="form-check-input" type="radio" name="flexRadioDefault" id="radioMes">
-  <label class="form-check-label" for="radioMes">
-    Mes
-  </label>
-</div>
-
-</div>
-
-<div class="mb-3 calendar-start-end">
-   <div class="mb-3 date-init">
-     <label for="start-date" class="form-label">
-          Inicio
-         </label>
-         <input type="date" class="form-control" name="consultDate" id="start-date" aria-describedby="helpId">
-       </div>
-        <div class="mb-3 date-end">
-           <label for="end-date" class="form-label">
-          Final
-         </label>
-         <input type="date" class="form-control" name="consultDate" id="end-date" aria-describedby="helpId">
-       </div>
-</div>
-
-<div class="mb-3 select-plazas accordion" id="accordionExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-           Seleccione la(s) plaza(s)
-          </button>
-        </h2>
-        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="accordion-collapse">
-          <div class="accordion-body">
-            
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="plaza_delvalle">
-              <label class="form-check-label" for="plaza_delvalle">
-                DEL VALLE
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="plaza_sandino">
-              <label class="form-check-label" for="plaza_sandino">
-                PLAZA SANDINO
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="plaza_roma">
-              <label class="form-check-label" for="plaza_roma">
-                ROMA
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="plaza_reforma">
-              <label class="form-check-label" for="plaza_reforma">
-                REFORMA
-              </label>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="mb-3 select-report accordion" id="accordionSelectReport">
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-           Seleccione el reporte(s)
-          </button>
-        </h2>
-        <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionSelectReport">
-          <div class="accordion-body">
-            
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="ListadoDeProducto">
-              <label class="form-check-label" for="ListadoDeProducto">
-                Listado de producto
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="AcumuladoMensual">
-              <label class="form-check-label" for="AcumuladoMensual">
-                Acumulado mensual
-              </label>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-<div class="d-grid gap-2">
-  <button type="submit" class="btn btn-secondary">Generar reporte</button>
-</div>
-  </form>
+{{> dataRange}}
 </aside>
 
 <main class="container">
@@ -135,72 +13,17 @@
     <table class="table table-striped">
         <thead>
             <tr>
-                <th scope="col">Numero de unidad</th>
-                <th scope="col">Plaza</th>
-                <th scope="col">Total</th>
+                <th scope="col">Id Local</th>
+                <th scope="col">Sucursal</th>
+                <th scope="col">Venta Neta</th>
+                <th scope="col">Ticket promedio</th>
+                <th scope="col">Numero de tickets</th>
+                <th scope="col">Venta Total</th>
+                <th scope="col">Fecha</th>
             </tr>
         </thead>
         <tbody>
-          <tr>
-            <td class='alinear'>725</td>
-             <td class='alinear'>DEL VALLE</td>
-            <td class='alinear'>$71,664.00</td>
-          </tr>
-                    <tr>
-            <td class='alinear'>753</td>
-            <td class='alinear'>PLAZA SANDINO</td>
-            <td class='alinear'>$76,772.00</td>
-          </tr>
-
-               <tr>
-            <td class='alinear'>753</td>
-            <td class='alinear'>PLAZA SANDINO</td>
-            <td class='alinear'>$76,772.00</td>
-          </tr>
-               <tr>
-            <td class='alinear'>753</td>
-            <td class='alinear'>PLAZA SANDINO</td>
-            <td class='alinear'>$76,772.00</td>
-          </tr>
-               <tr>
-            <td class='alinear'>753</td>
-            <td class='alinear'>PLAZA SANDINO</td>
-            <td class='alinear'>$76,772.00</td>
-          </tr>
-               <tr>
-            <td class='alinear'>753</td>
-            <td class='alinear'>PLAZA SANDINO</td>
-            <td class='alinear'>$76,772.00</td>
-          </tr>
-               <tr>
-            <td class='alinear'>753</td>
-            <td class='alinear'>PLAZA SANDINO</td>
-            <td class='alinear'>$76,772.00</td>
-          </tr>
-               <tr>
-            <td class='alinear'>753</td>
-            <td class='alinear'>PLAZA SANDINO</td>
-            <td class='alinear'>$76,772.00</td>
-          </tr>
-               <tr>
-            <td class='alinear'>753</td>
-            <td class='alinear'>PLAZA SANDINO</td>
-            <td class='alinear'>$76,772.00</td>
-          </tr>     <tr>
-            <td class='alinear'>753</td>
-            <td class='alinear'>PLAZA SANDINO</td>
-            <td class='alinear'>$76,772.00</td>
-          </tr>     <tr>
-            <td class='alinear'>753</td>
-            <td class='alinear'>PLAZA SANDINO</td>
-            <td class='alinear'>$76,772.00</td>
-          </tr>     <tr>
-            <td class='alinear'>753</td>
-            <td class='alinear'>PLAZA SANDINO</td>
-            <td class='alinear'>$76,772.00</td>
-          </tr>
-
-          
+             {{!-- tableRows           --}}
         </tbody>
     </table>
 </div>

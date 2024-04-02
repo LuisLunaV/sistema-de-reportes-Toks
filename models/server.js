@@ -1,10 +1,9 @@
 const express = require("express");
 const cors = require("cors");
 const hbs = require("hbs");
-const path = require('path');
+const path = require("path");
 
-const { dbConnection } = require('../database/config.db.js');
-
+const { dbConnection } = require("../database/config.db.js");
 
 class Server {
   constructor() {
@@ -12,14 +11,14 @@ class Server {
     this.port = process.env.PORT || "8080";
 
     this.pages = {
-      notFound:"/",
+      notFound: "/",
       login: "/login",
       register: "/register",
-      home: "/home"
+      home: "/home",
     };
 
     this.apiPaths = {
-      auth:  '/api/v1/auth',
+      auth: "/api/v1/auth",
       users: "/api/v1/users",
     };
 
@@ -34,10 +33,14 @@ class Server {
   }
 
   handlebars() {
-    this.app.set('view engine', 'hbs');
+    this.app.set("view engine", "hbs");
     // Set the location of partial files
-    const filePath = path.resolve(__dirname, '../views/partials');
+    const filePath = path.resolve(__dirname, "../views/partials");
+    const filePathDate = path.resolve(__dirname, "../views/dateRanges");
+    const filePathReport = path.resolve(__dirname, "../views/reports");
     hbs.registerPartials(filePath);
+    hbs.registerPartials(filePathDate);
+    hbs.registerPartials(filePathReport);
   }
 
   async connectDB() {
@@ -52,21 +55,29 @@ class Server {
     this.app.use(express.json());
 
     // Public directories to serve static files
-    this.app.use(express.static('public'));
-    this.app.use(express.static('src'));
+    this.app.use(express.static("public"));
+    this.app.use(express.static("src"));
   }
 
   render() {
-   
-    this.app.use(this.pages.login, require('../routers/render/login.routes.js'));
-    this.app.use(this.pages.register, require('../routers/render/register.routes.js'));
-    this.app.use(this.pages.home, require('../routers/render/home.routes.js'));
-    this.app.use(this.pages.notFound, require('../routers/render/404.routes.js'))
+    this.app.use(
+      this.pages.login,
+      require("../routers/render/login.routes.js")
+    );
+    this.app.use(
+      this.pages.register,
+      require("../routers/render/register.routes.js")
+    );
+    this.app.use(this.pages.home, require("../routers/render/home.routes.js"));
+    this.app.use(
+      this.pages.notFound,
+      require("../routers/render/404.routes.js")
+    );
   }
 
   router() {
-    this.app.use(this.apiPaths.auth, require('../routers/auth.routes.js'));
-    this.app.use(this.apiPaths.users, require('../routers/users.routes.js'));
+    this.app.use(this.apiPaths.auth, require("../routers/auth.routes.js"));
+    this.app.use(this.apiPaths.users, require("../routers/users.routes.js"));
   }
 
   listen() {
@@ -77,5 +88,5 @@ class Server {
 }
 
 module.exports = {
-  Server
-}
+  Server,
+};

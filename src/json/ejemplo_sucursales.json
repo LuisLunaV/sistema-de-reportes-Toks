@@ -1,0 +1,790 @@
+{
+    "response": {
+      "Sucursales": [
+        {
+          "Id_Local": 750,
+          "Nombre": "Shake Shack Reforma",
+          "Venta_Neta": 15000,
+          "Ticket_Promedio": 120,
+          "Numero_De_Tickets": 125,
+          "Venta_Total": 1875000,
+          "Fecha": "2024-01-01"
+        },
+        {
+          "Id_Local": 751,
+          "Nombre": "Shake Shack Arcos",
+          "Venta_Neta": 18000,
+          "Ticket_Promedio": 110,
+          "Numero_De_Tickets": 140,
+          "Venta_Total": 2520000,
+          "Fecha": "2024-01-02"
+        },
+        {
+          "Id_Local": 752,
+          "Nombre": "Shake Shack Satelite",
+          "Venta_Neta": 22000,
+          "Ticket_Promedio": 130,
+          "Numero_De_Tickets": 180,
+          "Venta_Total": 3960000,
+          "Fecha": "2024-01-03"
+        },
+        {
+          "Id_Local": 753,
+          "Nombre": "Shake Shack Coapa",
+          "Venta_Neta": 19000,
+          "Ticket_Promedio": 115,
+          "Numero_De_Tickets": 150,
+          "Venta_Total": 2850000,
+          "Fecha": "2024-01-04"
+        },
+        {
+          "Id_Local": 750,
+          "Nombre": "Shake Shack Reforma",
+          "Venta_Neta": 15500,
+          "Ticket_Promedio": 125,
+          "Numero_De_Tickets": 135,
+          "Venta_Total": 2082500,
+          "Fecha": "2024-01-05"
+        },
+        {
+          "Id_Local": 751,
+          "Nombre": "Shake Shack Arcos",
+          "Venta_Neta": 19000,
+          "Ticket_Promedio": 120,
+          "Numero_De_Tickets": 145,
+          "Venta_Total": 2755000,
+          "Fecha": "2024-01-06"
+        },
+        {
+          "Id_Local": 752,
+          "Nombre": "Shake Shack Satelite",
+          "Venta_Neta": 23000,
+          "Ticket_Promedio": 140,
+          "Numero_De_Tickets": 190,
+          "Venta_Total": 4370000,
+          "Fecha": "2024-01-07"
+        },
+        {
+          "Id_Local": 753,
+          "Nombre": "Shake Shack Coapa",
+          "Venta_Neta": 20000,
+          "Ticket_Promedio": 125,
+          "Numero_De_Tickets": 155,
+          "Venta_Total": 3100000,
+          "Fecha": "2024-01-08"
+        },
+        {
+          "Id_Local": 750,
+          "Nombre": "Shake Shack Reforma",
+          "Venta_Neta": 16000,
+          "Ticket_Promedio": 130,
+          "Numero_De_Tickets": 140,
+          "Venta_Total": 2240000,
+          "Fecha": "2024-01-09"
+        },
+        {
+          "Id_Local": 751,
+          "Nombre": "Shake Shack Arcos",
+          "Venta_Neta": 20000,
+          "Ticket_Promedio": 125,
+          "Numero_De_Tickets": 150,
+          "Venta_Total": 3000000,
+          "Fecha": "2024-01-10"
+        },
+        {
+          "Id_Local": 752,
+          "Nombre": "Shake Shack Satelite",
+          "Venta_Neta": 24000,
+          "Ticket_Promedio": 145,
+          "Numero_De_Tickets": 200,
+          "Venta_Total": 4800000,
+          "Fecha": "2024-01-11"
+        },
+        {
+          "Id_Local": 753,
+          "Nombre": "Shake Shack Coapa",
+          "Venta_Neta": 21000,
+          "Ticket_Promedio": 130,
+          "Numero_De_Tickets": 165,
+          "Venta_Total": 3465000,
+          "Fecha": "2024-01-12"
+        },
+        {
+          "Id_Local": 750,
+          "Nombre": "Shake Shack Reforma",
+          "Venta_Neta": 16500,
+          "Ticket_Promedio": 135,
+          "Numero_De_Tickets": 145,
+          "Venta_Total": 2392500,
+          "Fecha": "2024-01-13"
+        },
+        {
+          "Id_Local": 751,
+          "Nombre": "Shake Shack Arcos",
+          "Venta_Neta": 21000,
+          "Ticket_Promedio": 130,
+          "Numero_De_Tickets": 155,
+          "Venta_Total": 3255000,
+          "Fecha": "2024-01-14"
+        },
+        {
+          "Id_Local": 752,
+          "Nombre": "Shake Shack Satelite",
+          "Venta_Neta": 25000,
+          "Ticket_Promedio": 150,
+          "Numero_De_Tickets": 210,
+          "Venta_Total": 5250000,
+          "Fecha": "2024-01-15"
+        },
+        {
+          "Id_Local": 753,
+          "Nombre": "Shake Shack Coapa",
+          "Venta_Neta": 22000,
+          "Ticket_Promedio": 135,
+          "Numero_De_Tickets": 170,
+          "Venta_Total": 3740000,
+          "Fecha": "2024-01-16"
+        },
+        {
+          "Id_Local": 750,
+          "Nombre": "Shake Shack Reforma",
+          "Venta_Neta": 17000,
+          "Ticket_Promedio": 140,
+          "Numero_De_Tickets": 150,
+          "Venta_Total": 2550000,
+          "Fecha": "2024-01-17"
+        },
+        {
+          "Id_Local": 751,
+          "Nombre": "Shake Shack Arcos",
+          "Venta_Neta": 22000,
+          "Ticket_Promedio": 135,
+          "Numero_De_Tickets": 160,
+          "Venta_Total": 3520000,
+          "Fecha": "2024-01-18"
+        },
+        {
+          "Id_Local": 752,
+          "Nombre": "Shake Shack Satelite",
+          "Venta_Neta": 26000,
+          "Ticket_Promedio": 160,
+          "Numero_De_Tickets": 220,
+          "Venta_Total": 5720000,
+          "Fecha": "2024-01-19"
+        },
+        {
+          "Id_Local": 753,
+          "Nombre": "Shake Shack Coapa",
+          "Venta_Neta": 23000,
+          "Ticket_Promedio": 140,
+          "Numero_De_Tickets": 175,
+          "Venta_Total": 4025000,
+          "Fecha": "2024-01-20"
+        },
+        {
+          "Id_Local": 750,
+          "Nombre": "Shake Shack Reforma",
+          "Venta_Neta": 17500,
+          "Ticket_Promedio": 145,
+          "Numero_De_Tickets": 155,
+          "Venta_Total": 2712500,
+          "Fecha": "2024-01-21"
+        },
+        {
+          "Id_Local": 751,
+          "Nombre": "Shake Shack Arcos",
+          "Venta_Neta": 23000,
+          "Ticket_Promedio": 140,
+          "Numero_De_Tickets": 165,
+          "Venta_Total": 3795000,
+          "Fecha": "2024-01-22"
+        },
+        {
+          "Id_Local": 752,
+          "Nombre": "Shake Shack Satelite",
+          "Venta_Neta": 27000,
+          "Ticket_Promedio": 170,
+          "Numero_De_Tickets": 230,
+          "Venta_Total": 6210000,
+          "Fecha": "2024-01-23"
+        },
+        {
+          "Id_Local": 753,
+          "Nombre": "Shake Shack Coapa",
+          "Venta_Neta": 24000,
+          "Ticket_Promedio": 145,
+          "Numero_De_Tickets": 185,
+          "Venta_Total": 4440000,
+          "Fecha": "2024-01-24"
+        },
+        {
+          "Id_Local": 750,
+          "Nombre": "Shake Shack Reforma",
+          "Venta_Neta": 18000,
+          "Ticket_Promedio": 150,
+          "Numero_De_Tickets": 160,
+          "Venta_Total": 2880000,
+          "Fecha": "2024-01-25"
+        },
+        {
+          "Id_Local": 751,
+          "Nombre": "Shake Shack Arcos",
+          "Venta_Neta": 24000,
+          "Ticket_Promedio": 145,
+          "Numero_De_Tickets": 170,
+          "Venta_Total": 4080000,
+          "Fecha": "2024-01-26"
+        },
+        {
+          "Id_Local": 752,
+          "Nombre": "Shake Shack Satelite",
+          "Venta_Neta": 28000,
+          "Ticket_Promedio": 180,
+          "Numero_De_Tickets": 240,
+          "Venta_Total": 6720000,
+          "Fecha": "2024-01-27"
+        },
+        {
+          "Id_Local": 753,
+          "Nombre": "Shake Shack Coapa",
+          "Venta_Neta": 25000,
+          "Ticket_Promedio": 155,
+          "Numero_De_Tickets": 195,
+          "Venta_Total": 4875000,
+          "Fecha": "2024-01-28"
+        },
+        {
+          "Id_Local": 750,
+          "Nombre": "Shake Shack Reforma",
+          "Venta_Neta": 18500,
+          "Ticket_Promedio": 155,
+          "Numero_De_Tickets": 165,
+          "Venta_Total": 3052500,
+          "Fecha": "2024-01-29"
+        },
+        {
+          "Id_Local": 751,
+          "Nombre": "Shake Shack Arcos",
+          "Venta_Neta": 25000,
+          "Ticket_Promedio": 150,
+          "Numero_De_Tickets": 180,
+          "Venta_Total": 4500000,
+          "Fecha": "2024-01-30"
+        },
+        {
+          "Id_Local": 752,
+          "Nombre": "Shake Shack Satelite",
+          "Venta_Neta": 29000,
+          "Ticket_Promedio": 190,
+          "Numero_De_Tickets": 250,
+          "Venta_Total": 7250000,
+          "Fecha": "2024-01-31"
+        },
+        {
+          "Id_Local": 753,
+          "Nombre": "Shake Shack Coapa",
+          "Venta_Neta": 26000,
+          "Ticket_Promedio": 160,
+          "Numero_De_Tickets": 200,
+          "Venta_Total": 5200000,
+          "Fecha": "2024-02-01"
+        },
+        {
+          "Id_Local": 750,
+          "Nombre": "Shake Shack Reforma",
+          "Venta_Neta": 19000,
+          "Ticket_Promedio": 160,
+          "Numero_De_Tickets": 170,
+          "Venta_Total": 3230000,
+          "Fecha": "2024-02-02"
+        },
+        {
+          "Id_Local": 751,
+          "Nombre": "Shake Shack Arcos",
+          "Venta_Neta": 26000,
+          "Ticket_Promedio": 155,
+          "Numero_De_Tickets": 190,
+          "Venta_Total": 4940000,
+          "Fecha": "2024-02-03"
+        },
+        {
+          "Id_Local": 752,
+          "Nombre": "Shake Shack Satelite",
+          "Venta_Neta": 30000,
+          "Ticket_Promedio": 200,
+          "Numero_De_Tickets": 260,
+          "Venta_Total": 7800000,
+          "Fecha": "2024-02-04"
+        },
+        {
+          "Id_Local": 753,
+          "Nombre": "Shake Shack Coapa",
+          "Venta_Neta": 27000,
+          "Ticket_Promedio": 165,
+          "Numero_De_Tickets": 205,
+          "Venta_Total": 5535000,
+          "Fecha": "2024-02-05"
+        },
+        {
+          "Id_Local": 750,
+          "Nombre": "Shake Shack Reforma",
+          "Venta_Neta": 19500,
+          "Ticket_Promedio": 165,
+          "Numero_De_Tickets": 175,
+          "Venta_Total": 3412500,
+          "Fecha": "2024-02-06"
+        },
+        {
+          "Id_Local": 751,
+          "Nombre": "Shake Shack Arcos",
+          "Venta_Neta": 27000,
+          "Ticket_Promedio": 160,
+          "Numero_De_Tickets": 200,
+          "Venta_Total": 5400000,
+          "Fecha": "2024-02-07"
+        },
+        {
+          "Id_Local": 752,
+          "Nombre": "Shake Shack Satelite",
+          "Venta_Neta": 31000,
+          "Ticket_Promedio": 210,
+          "Numero_De_Tickets": 270,
+          "Venta_Total": 8370000,
+          "Fecha": "2024-02-08"
+        },
+        {
+          "Id_Local": 753,
+          "Nombre": "Shake Shack Coapa",
+          "Venta_Neta": 28000,
+          "Ticket_Promedio": 175,
+          "Numero_De_Tickets": 215,
+          "Venta_Total": 6020000,
+          "Fecha": "2024-02-09"
+        },
+        {
+          "Id_Local": 750,
+          "Nombre": "Shake Shack Reforma",
+          "Venta_Neta": 20000,
+          "Ticket_Promedio": 170,
+          "Numero_De_Tickets": 180,
+          "Venta_Total": 3600000,
+          "Fecha": "2024-02-10"
+        },
+        {
+          "Id_Local": 751,
+          "Nombre": "Shake Shack Arcos",
+          "Venta_Neta": 28000,
+          "Ticket_Promedio": 165,
+          "Numero_De_Tickets": 210,
+          "Venta_Total": 5880000,
+          "Fecha": "2024-02-11"
+        },
+        {
+          "Id_Local": 752,
+          "Nombre": "Shake Shack Satelite",
+          "Venta_Neta": 32000,
+          "Ticket_Promedio": 220,
+          "Numero_De_Tickets": 280,
+          "Venta_Total": 8960000,
+          "Fecha": "2024-02-12"
+        },
+        {
+          "Id_Local": 753,
+          "Nombre": "Shake Shack Coapa",
+          "Venta_Neta": 29000,
+          "Ticket_Promedio": 180,
+          "Numero_De_Tickets": 220,
+          "Venta_Total": 6380000,
+          "Fecha": "2024-02-13"
+        },
+        {
+          "Id_Local": 750,
+          "Nombre": "Shake Shack Reforma",
+          "Venta_Neta": 20500,
+          "Ticket_Promedio": 175,
+          "Numero_De_Tickets": 185,
+          "Venta_Total": 3792500,
+          "Fecha": "2024-02-14"
+        },
+        {
+          "Id_Local": 751,
+          "Nombre": "Shake Shack Arcos",
+          "Venta_Neta": 29000,
+          "Ticket_Promedio": 170,
+          "Numero_De_Tickets": 215,
+          "Venta_Total": 6235000,
+          "Fecha": "2024-02-15"
+        },
+        {
+          "Id_Local": 752,
+          "Nombre": "Shake Shack Satelite",
+          "Venta_Neta": 33000,
+          "Ticket_Promedio": 230,
+          "Numero_De_Tickets": 290,
+          "Venta_Total": 9570000,
+          "Fecha": "2024-02-16"
+        },
+        {
+          "Id_Local": 753,
+          "Nombre": "Shake Shack Coapa",
+          "Venta_Neta": 30000,
+          "Ticket_Promedio": 185,
+          "Numero_De_Tickets": 225,
+          "Venta_Total": 6750000,
+          "Fecha": "2024-02-17"
+        },
+        {
+          "Id_Local": 750,
+          "Nombre": "Shake Shack Reforma",
+          "Venta_Neta": 21000,
+          "Ticket_Promedio": 180,
+          "Numero_De_Tickets": 190,
+          "Venta_Total": 3990000,
+          "Fecha": "2024-02-18"
+        },
+        {
+          "Id_Local": 751,
+          "Nombre": "Shake Shack Arcos",
+          "Venta_Neta": 30000,
+          "Ticket_Promedio": 175,
+          "Numero_De_Tickets": 220,
+          "Venta_Total": 6600000,
+          "Fecha": "2024-02-19"
+        },
+        {
+          "Id_Local": 752,
+          "Nombre": "Shake Shack Satelite",
+          "Venta_Neta": 34000,
+          "Ticket_Promedio": 240,
+          "Numero_De_Tickets": 300,
+          "Venta_Total": 10200000,
+          "Fecha": "2024-02-20"
+        },
+        {
+          "Id_Local": 753,
+          "Nombre": "Shake Shack Coapa",
+          "Venta_Neta": 31000,
+          "Ticket_Promedio": 190,
+          "Numero_De_Tickets": 230,
+          "Venta_Total": 7130000,
+          "Fecha": "2024-02-21"
+        },
+        {
+          "Id_Local": 750,
+          "Nombre": "Shake Shack Reforma",
+          "Venta_Neta": 21500,
+          "Ticket_Promedio": 185,
+          "Numero_De_Tickets": 195,
+          "Venta_Total": 4182500,
+          "Fecha": "2024-02-22"
+        },
+        {
+          "Id_Local": 751,
+          "Nombre": "Shake Shack Arcos",
+          "Venta_Neta": 31000,
+          "Ticket_Promedio": 180,
+          "Numero_De_Tickets": 225,
+          "Venta_Total": 6975000,
+          "Fecha": "2024-02-23"
+        },
+        {
+          "Id_Local": 752,
+          "Nombre": "Shake Shack Satelite",
+          "Venta_Neta": 35000,
+          "Ticket_Promedio": 250,
+          "Numero_De_Tickets": 310,
+          "Venta_Total": 10850000,
+          "Fecha": "2024-02-24"
+        },
+        {
+          "Id_Local": 753,
+          "Nombre": "Shake Shack Coapa",
+          "Venta_Neta": 32000,
+          "Ticket_Promedio": 195,
+          "Numero_De_Tickets": 235,
+          "Venta_Total": 7520000,
+          "Fecha": "2024-02-25"
+        },
+        {
+          "Id_Local": 750,
+          "Nombre": "Shake Shack Reforma",
+          "Venta_Neta": 22000,
+          "Ticket_Promedio": 190,
+          "Numero_De_Tickets": 200,
+          "Venta_Total": 4400000,
+          "Fecha": "2024-02-26"
+        },
+        {
+          "Id_Local": 751,
+          "Nombre": "Shake Shack Arcos",
+          "Venta_Neta": 32000,
+          "Ticket_Promedio": 185,
+          "Numero_De_Tickets": 230,
+          "Venta_Total": 7360000,
+          "Fecha": "2024-02-27"
+        },
+        {
+          "Id_Local": 752,
+          "Nombre": "Shake Shack Satelite",
+          "Venta_Neta": 36000,
+          "Ticket_Promedio": 260,
+          "Numero_De_Tickets": 320,
+          "Venta_Total": 11520000,
+          "Fecha": "2024-02-28"
+        },
+        {
+          "Id_Local": 753,
+          "Nombre": "Shake Shack Coapa",
+          "Venta_Neta": 33000,
+          "Ticket_Promedio": 200,
+          "Numero_De_Tickets": 240,
+          "Venta_Total": 7920000,
+          "Fecha": "2024-02-29"
+        },
+        {
+          "Id_Local": 750,
+          "Nombre": "Shake Shack Reforma",
+          "Venta_Neta": 22500,
+          "Ticket_Promedio": 195,
+          "Numero_De_Tickets": 205,
+          "Venta_Total": 4612500,
+          "Fecha": "2024-03-01"
+        },
+        {
+          "Id_Local": 751,
+          "Nombre": "Shake Shack Arcos",
+          "Venta_Neta": 33000,
+          "Ticket_Promedio": 190,
+          "Numero_De_Tickets": 235,
+          "Venta_Total": 7755000,
+          "Fecha": "2024-03-02"
+        },
+        {
+          "Id_Local": 752,
+          "Nombre": "Shake Shack Satelite",
+          "Venta_Neta": 37000,
+          "Ticket_Promedio": 270,
+          "Numero_De_Tickets": 330,
+          "Venta_Total": 12210000,
+          "Fecha": "2024-03-03"
+        },
+        {
+          "Id_Local": 753,
+          "Nombre": "Shake Shack Coapa",
+          "Venta_Neta": 34000,
+          "Ticket_Promedio": 205,
+          "Numero_De_Tickets": 245,
+          "Venta_Total": 8330000,
+          "Fecha": "2024-03-04"
+        },
+        {
+          "Id_Local": 750,
+          "Nombre": "Shake Shack Reforma",
+          "Venta_Neta": 23000,
+          "Ticket_Promedio": 200,
+          "Numero_De_Tickets": 210,
+          "Venta_Total": 4830000,
+          "Fecha": "2024-03-05"
+        },
+        {
+          "Id_Local": 751,
+          "Nombre": "Shake Shack Arcos",
+          "Venta_Neta": 34000,
+          "Ticket_Promedio": 195,
+          "Numero_De_Tickets": 240,
+          "Venta_Total": 8160000,
+          "Fecha": "2024-03-06"
+        },
+        {
+          "Id_Local": 752,
+          "Nombre": "Shake Shack Satelite",
+          "Venta_Neta": 38000,
+          "Ticket_Promedio": 280,
+          "Numero_De_Tickets": 340,
+          "Venta_Total": 12920000,
+          "Fecha": "2024-03-07"
+        },
+        {
+          "Id_Local": 753,
+          "Nombre": "Shake Shack Coapa",
+          "Venta_Neta": 35000,
+          "Ticket_Promedio": 210,
+          "Numero_De_Tickets": 250,
+          "Venta_Total": 8750000,
+          "Fecha": "2024-03-08"
+        },
+        {
+          "Id_Local": 750,
+          "Nombre": "Shake Shack Reforma",
+          "Venta_Neta": 23500,
+          "Ticket_Promedio": 205,
+          "Numero_De_Tickets": 215,
+          "Venta_Total": 5052500,
+          "Fecha": "2024-03-09"
+        },
+        {
+          "Id_Local": 751,
+          "Nombre": "Shake Shack Arcos",
+          "Venta_Neta": 35000,
+          "Ticket_Promedio": 200,
+          "Numero_De_Tickets": 245,
+          "Venta_Total": 8575000,
+          "Fecha": "2024-03-10"
+        },
+        {
+          "Id_Local": 752,
+          "Nombre": "Shake Shack Satelite",
+          "Venta_Neta": 39000,
+          "Ticket_Promedio": 290,
+          "Numero_De_Tickets": 350,
+          "Venta_Total": 13650000,
+          "Fecha": "2024-03-11"
+        },
+        {
+          "Id_Local": 753,
+          "Nombre": "Shake Shack Coapa",
+          "Venta_Neta": 36000,
+          "Ticket_Promedio": 215,
+          "Numero_De_Tickets": 255,
+          "Venta_Total": 9180000,
+          "Fecha": "2024-03-12"
+        },
+        {
+          "Id_Local": 750,
+          "Nombre": "Shake Shack Reforma",
+          "Venta_Neta": 24000,
+          "Ticket_Promedio": 210,
+          "Numero_De_Tickets": 220,
+          "Venta_Total": 5280000,
+          "Fecha": "2024-03-13"
+        },
+        {
+          "Id_Local": 751,
+          "Nombre": "Shake Shack Arcos",
+          "Venta_Neta": 36000,
+          "Ticket_Promedio": 205,
+          "Numero_De_Tickets": 250,
+          "Venta_Total": 9000000,
+          "Fecha": "2024-03-14"
+        },
+        {
+          "Id_Local": 752,
+          "Nombre": "Shake Shack Satelite",
+          "Venta_Neta": 40000,
+          "Ticket_Promedio": 300,
+          "Numero_De_Tickets": 360,
+          "Venta_Total": 14400000,
+          "Fecha": "2024-03-15"
+        },
+        {
+          "Id_Local": 753,
+          "Nombre": "Shake Shack Coapa",
+          "Venta_Neta": 37000,
+          "Ticket_Promedio": 220,
+          "Numero_De_Tickets": 260,
+          "Venta_Total": 9620000,
+          "Fecha": "2024-03-16"
+        },
+        {
+          "Id_Local": 750,
+          "Nombre": "Shake Shack Reforma",
+          "Venta_Neta": 24500,
+          "Ticket_Promedio": 215,
+          "Numero_De_Tickets": 225,
+          "Venta_Total": 5512500,
+          "Fecha": "2024-03-17"
+        },
+        {
+          "Id_Local": 751,
+          "Nombre": "Shake Shack Arcos",
+          "Venta_Neta": 37000,
+          "Ticket_Promedio": 210,
+          "Numero_De_Tickets": 255,
+          "Venta_Total": 9427500,
+          "Fecha": "2024-03-18"
+        },
+        {
+          "Id_Local": 752,
+          "Nombre": "Shake Shack Satelite",
+          "Venta_Neta": 41000,
+          "Ticket_Promedio": 310,
+          "Numero_De_Tickets": 370,
+          "Venta_Total": 15170000,
+          "Fecha": "2024-03-19"
+        },
+        {
+          "Id_Local": 753,
+          "Nombre": "Shake Shack Coapa",
+          "Venta_Neta": 38000,
+          "Ticket_Promedio": 225,
+          "Numero_De_Tickets": 265,
+          "Venta_Total": 10070000,
+          "Fecha": "2024-03-20"
+        },
+        {
+          "Id_Local": 750,
+          "Nombre": "Shake Shack Reforma",
+          "Venta_Neta": 25000,
+          "Ticket_Promedio": 220,
+          "Numero_De_Tickets": 230,
+          "Venta_Total": 5750000,
+          "Fecha": "2024-03-21"
+        },
+        {
+          "Id_Local": 751,
+          "Nombre": "Shake Shack Arcos",
+          "Venta_Neta": 38000,
+          "Ticket_Promedio": 215,
+          "Numero_De_Tickets": 260,
+          "Venta_Total": 9880000,
+          "Fecha": "2024-03-22"
+        },
+        {
+          "Id_Local": 752,
+          "Nombre": "Shake Shack Satelite",
+          "Venta_Neta": 42000,
+          "Ticket_Promedio": 320,
+          "Numero_De_Tickets": 380,
+          "Venta_Total": 15960000,
+          "Fecha": "2024-03-23"
+        },
+        {
+          "Id_Local": 753,
+          "Nombre": "Shake Shack Coapa",
+          "Venta_Neta": 39000,
+          "Ticket_Promedio": 230,
+          "Numero_De_Tickets": 270,
+          "Venta_Total": 10530000,
+          "Fecha": "2024-03-24"
+        },
+        {
+          "Id_Local": 750,
+          "Nombre": "Shake Shack Reforma",
+          "Venta_Neta": 25500,
+          "Ticket_Promedio": 225,
+          "Numero_De_Tickets": 235,
+          "Venta_Total": 5985000,
+          "Fecha": "2024-03-25"
+        },
+        {
+          "Id_Local": 751,
+          "Nombre": "Shake Shack Arcos",
+          "Venta_Neta": 39000,
+          "Ticket_Promedio": 220,
+          "Numero_De_Tickets": 265,
+          "Venta_Total": 10335000,
+          "Fecha": "2024-03-26"
+        },
+        {
+          "Id_Local": 752,
+          "Nombre": "Shake Shack Satelite",
+          "Venta_Neta": 43000,
+          "Ticket_Promedio": 330,
+          "Numero_De_Tickets": 390,
+          "Venta_Total": 16770000,
+          "Fecha": "2024-03-27"
+        }
+      ]
+    }
+  }
+  
