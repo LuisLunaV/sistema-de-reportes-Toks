@@ -47,6 +47,10 @@ export class DateRanges {
       startYear
     }
   }
+
+  getFirstDayMonth(){
+    
+  }
 }
 
 
