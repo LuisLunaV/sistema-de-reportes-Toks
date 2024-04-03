@@ -93,14 +93,6 @@ export class RadioRange extends DateRanges {
    if(this.rangeDate.length>0){ this.rangeDate=[]}
    this.rangeDate.push( startDate, currentDay);
    this.sendInformation();
-
-
-  }
-  formatDay(day) {
-    return day < 10 ? "0" + day : day;
   }
 
-  formatMonth(month) {
-    return month < 10 ? "0" + month : month;
-  }
 }

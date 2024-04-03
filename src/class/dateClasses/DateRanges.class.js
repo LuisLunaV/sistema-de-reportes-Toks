@@ -48,9 +48,14 @@ export class DateRanges {
     }
   }
 
-  getFirstDayMonth(){
-    
+  formatDay(day) {
+    return day < 10 ? "0" + day : day;
   }
+
+  formatMonth(month) {
+    return month < 10 ? "0" + month : month;
+  }
+ 
 }
 
 

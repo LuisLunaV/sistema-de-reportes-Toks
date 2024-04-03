@@ -1,9 +1,10 @@
-import { RadioRange } from '../../class/dateClasses/index.js';
+import { RadioRange, SelectRange } from '../../class/dateClasses/index.js';
 
 const formDateRanges = document.querySelector("#form-date-ranges");
 
 export const eventDateRanges = () => {
-  const radioRange = new RadioRange();
+  const radioRange  = new RadioRange();
+  const selectRange = new SelectRange();
   const range = [];
 
   formDateRanges.addEventListener("change", ({ target }) => {
@@ -15,7 +16,7 @@ export const eventDateRanges = () => {
         break;
 
       case "select-one":
-        console.log("select:", target.value);
+        selectRange.getSelectMonth( target.value);
         break;
         
       default:

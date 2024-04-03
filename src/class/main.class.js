@@ -23,7 +23,7 @@ class Main{
             showUserName();
             apexChart();
             eventDateRanges();
-            getInformation()
+            // getInformation()
             singOff();
         }
     }
