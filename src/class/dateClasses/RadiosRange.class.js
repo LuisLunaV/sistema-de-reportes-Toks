@@ -5,7 +5,7 @@ export class RadioRange extends DateRanges {
     super();
   }
 
-  getRadioDate(type) {
+  setRadioDate(type) {
     switch (type) {
       case "radioHoy":
         this.handleRadioHoy();

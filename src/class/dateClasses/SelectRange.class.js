@@ -3,7 +3,7 @@ export class SelectRange extends DateRanges {
     constructor() {
       super();
     }
-    getSelectMonth( value ){
+    setSelectMonth( value ){
       
       const { year } = this.getCurrentDay();
       
@@ -28,7 +28,7 @@ export class SelectRange extends DateRanges {
           break;
       }
 
-  this.type = "Select_Mes";
+   this.type = "Select_Mes";
    this.consultDay = ''; 
    if(this.rangeDate.length>0){ this.rangeDate=[]}
    this.rangeDate.push( startDate, endDate);
