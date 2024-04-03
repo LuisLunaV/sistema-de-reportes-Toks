@@ -73,7 +73,7 @@ export class RadioRange extends DateRanges {
     const startDate = `${startYear}/${formattedStartMonth}/${formattedStartDay}`;
     const endDate = `${year}/${formattedMonth}/${formattedDay}`;
 
-    this.type = "Semana Actual";
+    this.type = "Semana_Actual";
     this.consultDay = ''; 
    if(this.rangeDate.length>0){ this.rangeDate=[]}
     this.rangeDate.push(startDate, endDate);
@@ -88,7 +88,7 @@ export class RadioRange extends DateRanges {
 
    const startDate  = `${year}/${formattedMonth}/01`;
    const currentDay = `${year}/${formattedMonth}/${formattedDay}`;
-   this.type = "Mes Actual";
+   this.type = "Mes_Actual";
    this.consultDay = ''; 
    if(this.rangeDate.length>0){ this.rangeDate=[]}
    this.rangeDate.push( startDate, currentDay);
