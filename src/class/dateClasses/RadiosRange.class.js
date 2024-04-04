@@ -31,7 +31,7 @@ export class RadioRange extends DateRanges {
 
     this.type = "Hoy";
     this.rangeDate = [];
-    this.consultDay = `${year}/${formattedMonth}/${formattedDay}`;
+    this.consultDay = `${year}-${formattedMonth}-${formattedDay}`;
     this.sendInformation();
   }
 
@@ -57,7 +57,7 @@ export class RadioRange extends DateRanges {
 
     this.type = "Ayer";
     this.rangeDate = [];
-    this.consultDay = `${previousYear}/${formattedMonth}/${formattedDay}`;
+    this.consultDay = `${previousYear}-${formattedMonth}-${formattedDay}`;
     this.sendInformation();
   }
 
@@ -70,8 +70,8 @@ export class RadioRange extends DateRanges {
     const formattedStartDay   = this.formatDay(startDay);
     const formattedStartMonth = this.formatMonth(startMonth + 1);
 
-    const startDate = `${startYear}/${formattedStartMonth}/${formattedStartDay}`;
-    const endDate = `${year}/${formattedMonth}/${formattedDay}`;
+    const startDate = `${startYear}-${formattedStartMonth}-${formattedStartDay}`;
+    const endDate = `${year}-${formattedMonth}-${formattedDay}`;
 
     this.type = "Semana_Actual";
     this.consultDay = ''; 
@@ -86,8 +86,8 @@ export class RadioRange extends DateRanges {
    const formattedDay       = this.formatDay( day );
    const formattedMonth     = this.formatMonth(month + 1);
 
-   const startDate  = `${year}/${formattedMonth}/01`;
-   const currentDay = `${year}/${formattedMonth}/${formattedDay}`;
+   const startDate  = `${year}-${formattedMonth}-01`;
+   const currentDay = `${year}-${formattedMonth}-${formattedDay}`;
    this.type = "Mes_Actual";
    this.consultDay = ''; 
    if(this.rangeDate.length>0){ this.rangeDate=[]}

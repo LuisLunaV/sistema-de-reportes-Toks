@@ -1,4 +1,3 @@
-import { getInformation } from '../services/moduloUno/api-get.js';
 import { formAuth, eventDateRanges } from '../events/index.js'
 import { showUserName } from'../components/index.js';
 import { detectWindow,validateSessionToken, singOff } from '../helper/index.js';
@@ -23,7 +22,6 @@ class Main{
             showUserName();
             apexChart();
             eventDateRanges();
-            // getInformation()
             singOff();
         }
     }

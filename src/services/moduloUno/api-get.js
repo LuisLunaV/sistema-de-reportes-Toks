@@ -1,5 +1,5 @@
 export const getInformation = async()=>{
-    const resp = await fetch('../../json/Ejemplo Response Portal.json');
-    const data = await resp.json();
-    console.log(data)
+    const resp = await fetch('../../json/ejemplo_sucursales.json');
+    const { response } = await resp.json();
+    return response;
 }

@@ -15,16 +15,16 @@ export class SelectRange extends DateRanges {
           const isLeapYear = ( year % 4 === 0 && year % 100 !==0 )||(year%400===0);
           const dayInFebruary = (isLeapYear) ? 29:28;
       
-          startDate = `${year}/${this.formatMonth( value )}/01`;
-          endDate  = `${year}/${this.formatMonth( value )}/${this.formatDay( dayInFebruary )}`;
+          startDate = `${year}-${this.formatMonth( value )}-01`;
+          endDate  =  `${year}-${this.formatMonth( value )}-${this.formatDay( dayInFebruary )}`;
           break;
         case 4: case 6: case 9: case 11:
-          startDate = `${year}/${this.formatMonth(value)}/01`;
-          endDate  = `${year}/${this.formatMonth(value)}/'30'`;
+          startDate = `${year}-${this.formatMonth(value)}-01`;
+          endDate  =  `${year}-${this.formatMonth(value)}-30'`;
           break;
         default:
-          startDate = `${year}/${this.formatMonth(value)}/01`;
-          endDate  = `${year}/${this.formatMonth(value)}/'31'`;
+          startDate = `${year}-${this.formatMonth(value)}-01`;
+          endDate  =  `${year}-${this.formatMonth(value)}-31'`;
           break;
       }
 

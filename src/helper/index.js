@@ -1,6 +1,6 @@
 import { formData } from './formData.js';
-import { authFailure } from './validateAuthentication.js';
-import { validateSessionToken } from './validateSessionToken.js';
+import { authFailure } from './validators/validateAuthentication.js';
+import { validateSessionToken } from './validators/validateSessionToken.js';
 import { detectWindow } from './detectWindow.js';
 import { singOff } from './singOff.js';
 

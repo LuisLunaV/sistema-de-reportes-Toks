@@ -1,4 +1,4 @@
-import { validateSessionToken } from '../helper/validateSessionToken.js'
+import { validateSessionToken } from './validators/validateSessionToken.js'
 export const singOff = () => {
   const btnCerrar = document.querySelector("#cerrarSesion");
 

@@ -1,3 +1,5 @@
+import { filterByDates } from '../../helper/filters/filtersByDates.js';
+
 export class DateRanges {
   constructor() {
     const { User_Name } = JSON.parse(sessionStorage.getItem("user"));
@@ -15,7 +17,7 @@ export class DateRanges {
       ConsultDay: this.consultDay,
       RangeDate: this.rangeDate,
     };
-    console.log(payload);
+    filterByDates(payload);
   }
   getCurrentDay() {
     let day = this.date.getDate();
