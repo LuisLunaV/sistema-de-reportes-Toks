@@ -1,5 +1,7 @@
 import { getInformation } from "../../services/moduloUno/api-get.js";
 import { showBranchInformation } from "../../components/home/tableRow.js";
+import { apexChart } from "../../util/index.js";
+
 const filterByDates = async (payload) => {
   const { Sucursales } = await getInformation();
 
@@ -8,17 +10,24 @@ const filterByDates = async (payload) => {
     const endDate = payload.RangeDate[1];
 
     const filteredDates = Sucursales.filter((sucursal) => {
-      if (sucursal.Fecha >= startDate && sucursal.Fecha <= endDate) {
+   
+       const sucursalFecha = sucursal.Fecha.substring(0, 10);
+      if (sucursalFecha >= startDate && sucursalFecha <= endDate) {
         return sucursal;
       }
     });
 
+    apexChart( filteredDates )
     return showBranchInformation(filteredDates);
   }
 
+  //Fecha unica
   const filteredDates = Sucursales.filter((sucursal) => {
-    return sucursal.Fecha === payload.ConsultDay;
+    const sucursalFecha = sucursal.Fecha.substring(0, 10);
+    return sucursalFecha === payload.ConsultDay;
   });
+  
+  apexChart( filteredDates )
   return showBranchInformation(filteredDates);
 };
 

@@ -1,10 +1,29 @@
-export const apexChart =()=>{
+export const apexChart =( data )=>{
+
+  if (!data) return;
+
+  // Agrupar los datos por sucursal
+  const reducedData = data.reduce((acc, current) => {
+    const found = acc.find(item => item.name === current.Nombre);
+    const index = acc.indexOf(found);
+    if (index !== -1) {
+      acc[index].data.push({ x: new Date(current.Fecha), y: current.Venta_Neta });
+    } else {
+      acc.push({
+        name: current.Nombre,
+        data: [{ x: new Date(current.Fecha), y: current.Venta_Neta }]
+      });
+    }
+    return acc;
+  }, []);
+
+  // Obtener fechas únicas
+  const uniqueDates = [...new Set(data.map((property) => property.Fecha))];
+
+
     var options = {
-        series: [{
-        name: 'series1',
-        data: [40, 50, 35, 10, 49, 60, 20, 11, 125] 
-      }],
-        chart: {
+        series: reducedData,
+      chart: {
         height: 350,
         type: 'area'
       },
@@ -16,16 +35,34 @@ export const apexChart =()=>{
       },
       xaxis: {
         type: 'datetime',
-        categories: ['2023-01-01', '2023-01-02', '2023-01-03', '2023-01-04', '2023-01-05', '2023-01-06', '2023-01-07', '2023-01-08', '2023-01-09']
+        categories: uniqueDates
+      },
+      yaxis: {
+        // opposite: true,
+        labels: {
+          formatter: function (value) {
+            return "$" + value;
+          }
+        }
       },
       tooltip: {
         x: {
           format: 'dd/MM/yy HH:mm'
         },
       },
-      colors: ['rgba(0, 0, 0, 0.5)'] 
-      };
+     colors: [
+    '#808B96', 
+    '#566573',
+    '#2C3E50',
+    '#273746',
+    '#212F3D',
+    '#1C2833',
+]
 
-      var chart = new ApexCharts(document.querySelector("#chart"), options);
+      // colors: ['rgba(0, 0, 0, 0.5)'], 
+      };
+      const divChart = document.querySelector("#chart");
+      if(divChart.childNodes[0]) divChart.innerHTML = '';
+      var chart = new ApexCharts( divChart, options);
       chart.render();
 }
