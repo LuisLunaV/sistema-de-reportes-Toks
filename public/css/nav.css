@@ -14,7 +14,7 @@ nav i {
 /* Resolcion para dispositivos moviles muy pequeños: */
 @media (max-width: 575px) {
   nav {
-    height: 7%;
+    height: auto;
   }
   .btn-secundario{
     display: block;
@@ -44,7 +44,7 @@ nav i {
 /* Resolcion para dispositivos moviles pequeños: */
 @media (min-width: 576px) and (max-width: 767px) {
   nav {
-    height: 10%;
+    height: auto;
   }
   .btn-secundario{
     display: block;
