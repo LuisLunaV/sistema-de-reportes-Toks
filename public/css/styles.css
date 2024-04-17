@@ -22,7 +22,14 @@
   justify-content: space-evenly;
 }
 /* ******* */
-
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 body{
   height: 100vh;
 }
@@ -41,22 +48,10 @@ img {
     top: 2.3rem; 
 }
 
-.div-ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
+
 
 @media (min-width: 768px) {
-  .div-ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-  }
 
-  .div-ul ul {
-    margin-right: 20px;
-  }
 }
 
 /* styles-alert */
@@ -76,32 +71,32 @@ img {
 }
 
 .button-reenviar{
-  padding: 10px 0;
+  padding: 1rem 0;
   text-align: center;
-  max-height: 40px;
-  max-width: 90px;
+  max-height: 4rem;
+  max-width: 9rem;
   height: 100%;
   width: 100%;
-
 }
+
 .button-salir{
-  padding: 10px 0;
+  padding: 1rem 0;
   text-align: center;
-  max-height: 40px;
-  max-width: 90px;
+  max-height: 4rem;
+  max-width: 9rem;
   height: 100%;
   width: 100%;
 }
 .swal2-actions{
   flex-direction: row !important;
-  max-width: 500px !important;
+  max-width: 50rem !important;
   width: 100% !important;
 }
 
 
 .version {
   text-align: center;
-  padding: 10px;
-  font-size: 12px;
+  padding: 1rem;
+  font-size: 1.2rem;
   color: #777;
 }

@@ -1,7 +1,22 @@
 <nav class="navbar navbar-expand-lg navbar-dark color-empresarial">
-  <div class="container-fluid ps-4">
+  <div class="container-btn-name container-fluid ps-4">
+    
+      <div class="btn-group dropstart btn-secundario">
+      <button
+        type="button"
+        class="btn btn-secondary btn-drop"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        <i class="bi bi-list"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" type="button" id="visualizar-reportes">Visualizar reportes</a></li>
+        <li><a class="dropdown-item" type="button" id="cerrarSesionDos"><strong>Cerrar sesion</strong></a></li>
+      </ul>
+    </div>
 
-    <div class="btn-group dropend">
+    <div class="btn-group dropend btn-principal">
       <button
         type="button"
         class="btn btn-secondary btn-drop"
@@ -16,15 +31,14 @@
       </ul>
     </div>
 
-    <div class="collapse navbar-collapse div-ul" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item nav-usernumber">
           <div id="cont-name-perfil">
            {{!-- user name span --}}
           </div>
-        </li>
 
-      </ul>
-    </div>
+      <div class="container-btn-calendar">
+        <button class="btn btn-secondary btn-calendar-range" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+          <i class="bi bi-calendar-check"></i>
+        </button>
+      </div>
   </div>
 </nav>

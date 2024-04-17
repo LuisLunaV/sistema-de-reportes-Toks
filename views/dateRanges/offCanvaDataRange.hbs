@@ -1,0 +1,82 @@
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+
+<form id="form-date-ranges" method="post">
+
+<div class="mb-3 radios-date">
+
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="radioHoy">
+  <label class="form-check-label" for="radioHoy">
+    Hoy
+  </label>
+</div>
+
+<!-- Elemento de radio para "Ayer" -->
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="radioAyer">
+  <label class="form-check-label" for="radioAyer">
+    Ayer
+  </label>
+</div>
+
+<!-- Elemento de radio para "Semana" -->
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="radioSemana">
+  <label class="form-check-label" for="radioSemana">
+    Semana
+  </label>
+</div>
+
+<!-- Elemento de radio para "Mes" -->
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="radioMes">
+  <label class="form-check-label" for="radioMes">
+    Mes
+  </label>
+</div>
+
+</div>
+
+<div class="mb-3 calendar-start-end">
+    <label for="selectMeses" class="form-label">Mes:</label>
+      <select class="form-select" id="selectMeses" aria-label="Selecciona un mes del año" name="meses" >
+      <option selected disabled>Seleccione el mes</option>
+      <option value="1">Enero</option>
+      <option value="2">Febrero</option>
+      <option value="3">Marzo</option>
+      <option value="4">Abril</option>
+      <option value="5">Mayo</option>
+      <option value="6">Junio</option>
+      <option value="7">Julio</option>
+      <option value="8">Agosto</option>
+      <option value="9">Septiembre</option>
+      <option value="10">Octubre</option>
+      <option value="11">Noviembre</option>
+      <option value="12">Diciembre</option>
+      </select>      
+</div>
+
+<div class="mb-3 calendar-start-end">
+   <div class="mb-3 date-init">
+     <label for="start-date" class="form-label">
+          Inicio
+         </label>
+         <input type="date" class="form-control" name="consultDate" id="start-date" aria-describedby="helpId">
+       </div>
+        <div class="mb-3 date-end">
+           <label for="end-date" class="form-label">
+          Final
+         </label>
+         <input type="date" class="form-control" name="consultDate" id="end-date" aria-describedby="helpId">
+       </div>
+</div>
+
+</form>
+
+  </div>
+</div>

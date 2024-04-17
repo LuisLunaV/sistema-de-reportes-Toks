@@ -4,10 +4,10 @@ const tableRowHtml =( properties )=>{
     <td class='alinear'>${properties.Id_Local}</td>
     <td class='alinear'>${properties.Nombre}</td>
     <td class='alinear'>$${properties.Venta_Neta}</td>
-    <td class='alinear'>${properties.Ticket_Promedio}</td>
+    <td class='alinear'>$${properties.Ticket_Promedio}</td>
     <td class='alinear'>${properties.Numero_De_Tickets}</td>
-    <td class='alinear'>$${properties.Venta_Total}</td>
     <td class='alinear'>${properties.Fecha}</td>
+
   </tr>`;
 
   tbody.innerHTML += html;
@@ -21,3 +21,5 @@ const showBranchInformation =( data )=>{
 export{
   showBranchInformation
 }
+
+    // <td class='alinear'>$${properties.Venta_Total}</td>

@@ -1,12 +1,30 @@
-/* Resolcion para dispositivos moviles muy pequeños: */
+/* Resolución para dispositivos móviles muy pequeños */
 @media (max-width: 575px) {
+  .mis-servicios aside {
+    display: none;
+  }
+  .mis-servicios main {
+    width: 100%;
+  }
+  .table {
+    font-size: 8px;
+  }
 }
 
-/* Resolcion para dispositivos moviles pequeños: */
+/* Resolución para dispositivos móviles pequeños */
 @media (min-width: 576px) and (max-width: 767px) {
+  .mis-servicios aside {
+    display: none;
+  }
+  .mis-servicios main {
+    width: 100%;
+  }
+  .table {
+    font-size: 10px;
+  }
 }
 
-/* Resolcion para tablets: */
+/* Resolución para tablets */
 @media (min-width: 768px) and (max-width: 991px) {
   .radios-date {
     flex-direction: row;
@@ -18,9 +36,12 @@
   .mis-servicios main {
     width: 60%;
   }
+  .table {
+    font-size: 12px;
+  }
 }
 
-/* Resolcion para pc de escritorio:  */
+/* Resolución para PC de escritorio */
 @media (min-width: 972px) {
   .radios-date {
     justify-content: space-evenly;
@@ -35,9 +56,11 @@
   }
 }
 
-main hr{
+/* Estilos generales */
+main hr {
   margin: 0;
 }
+
 ::-webkit-scrollbar {
   display: none;
 }
@@ -46,22 +69,24 @@ main hr{
   height: 50%;
   overflow: scroll;
 }
-.container-charts{
+
+.container-charts {
   height: 50%;
   overflow: scroll;
 }
+
 .mis-servicios {
   height: 90%;
   display: flex;
   flex-direction: row;
 }
+
 .mis-servicios aside {
   background-color: #ecf0f1;
   padding-top: 20px;
 }
 
-
-/* formulario */
+/* Estilos del formulario */
 .radios-date {
   display: flex;
   flex-direction: row;
@@ -69,22 +94,4 @@ main hr{
 
 .calendar-start-end {
   padding: 0 10px;
-}
-
-
-/* modal */
-
-.contain-view-report{
-  background-color: #ecf0f1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-
-}
-
-.view-report{
-  background-color: #fff;
-  height: 70vh;
-  width: 90%;
 }

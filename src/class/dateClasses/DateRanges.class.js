@@ -17,6 +17,7 @@ export class DateRanges {
       ConsultDay: this.consultDay,
       RangeDate: this.rangeDate,
     };
+
     filterByDates(payload);
   }
   getCurrentDay() {
