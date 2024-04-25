@@ -4,7 +4,7 @@ export const apexChart = (data) => {
 
   const { uniqueDates, reducedData, brandsAndQuantity } = groupDateQuantity( data );
 
-  if (uniqueDates.length< 5) {
+  if (uniqueDates.length <= 1) {
     var options = {
       series: [{
         name: 'venta',

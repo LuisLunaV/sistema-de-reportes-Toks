@@ -1,8 +1,22 @@
 import { validateSessionToken } from './validators/validateSessionToken.js'
-export const singOff = () => {
+
+export const mainMenu =()=>{
+  viewReports();
+  singOff();
+}
+
+const viewReports=()=>{
+const btnViewReports = document.querySelector('#visualizar-reportes');
+
+btnViewReports.addEventListener('click',( event )=>{
+  console.log('saludo')
+window.location.replace('/reports')
+});
+}
+
+const singOff = () => {
   const btnCerrar = document.querySelector("#cerrarSesion"),
         btnCerrarDos = document.querySelector("#cerrarSesionDos");
-
 
   btnCerrar.addEventListener("click", () => {
     limpiarSessionStorage();

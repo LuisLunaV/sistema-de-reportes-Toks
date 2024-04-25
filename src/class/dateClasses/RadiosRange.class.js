@@ -7,16 +7,16 @@ export class RadioRange extends DateRanges {
 
   setRadioDate(type) {
     switch (type) {
-      case "radioHoy":
+      case "radioHoy": case "radioHoyResp":
         this.handleRadioHoy();
         break;
-      case "radioAyer":
+      case "radioAyer": case "radioAyerResp":
         this.handleRadioAyer();
         break;
-      case "radioSemana":
+      case "radioSemana": case "radioSemanaResp":
         this.handleRadioSemana();
         break;
-        case "radioMes":
+        case "radioMes": case "radioMesResp":
           this.handleRadioMes();
           break;
       default:

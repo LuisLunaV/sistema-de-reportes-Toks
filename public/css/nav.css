@@ -1,27 +1,14 @@
 
-/* globales */
-nav {
-  box-shadow: 0px 3px 2px -2px rgba(0, 0, 0, 0.35);
-}
-nav li {
-  color: #000;
-}
-
-nav i {
-  font-size: 1.5rem;
-}
 
 /* Resolcion para dispositivos moviles muy pequeños: */
 @media (max-width: 575px) {
-  nav {
-    height: auto;
-  }
+ 
   .btn-secundario{
     display: block;
   }
   .container-btn-calendar{
     display: block;
-    margin-right: auto;
+
   }
   .btn-principal{
     display: none;
@@ -32,7 +19,8 @@ nav i {
   }
   #cont-name-perfil {
     font-size: 15px;
-    margin-right:5px;
+    margin: 0 auto;
+    /* margin-right:5px; */
     padding: 0.5rem 5px;
   }
   .btn-drop {
@@ -43,22 +31,21 @@ nav i {
 
 /* Resolcion para dispositivos moviles pequeños: */
 @media (min-width: 576px) and (max-width: 767px) {
-  nav {
-    height: auto;
-  }
+
   .btn-secundario{
     display: block;
   }
   .container-btn-calendar{
     display: block;
-    margin-right: auto;
+
   }
   .btn-principal{
     display: none;
   }
   #cont-name-perfil {
     font-size: 15px;
-    margin-right:5px;
+    margin: 0 auto;
+    /* margin-right:5px; */
 
   }
   .container-btn-name{
@@ -73,9 +60,7 @@ nav i {
 
 /* Resolcion para tablets: */
 @media (min-width: 768px) and (max-width: 991px) {
-  nav {
-    height: 10%;
-  }
+
   .btn-secundario{
     display: none;
   }
@@ -95,9 +80,7 @@ nav i {
 }
 /* Resolcion para pc de escritorio:  */
 @media (min-width: 972px) {
-  nav {
-    height: 8%;
-  }
+
   .btn-secundario{
     display: none;
   }
@@ -113,6 +96,20 @@ nav i {
     font-size: 1.5rem; /* Aumentar aún más el tamaño del botón */
     padding: 10px 20px; /* Aumentar aún más el relleno del botón */
   }
+}
+
+
+/* globales */
+nav {
+  height: auto;
+  box-shadow: 0px 3px 2px -2px rgba(0, 0, 0, 0.35);
+}
+nav li {
+  color: #000;
+}
+
+nav i {
+  font-size: 1.5rem;
 }
 
 /* utils */

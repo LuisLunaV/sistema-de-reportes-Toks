@@ -1,5 +1,12 @@
 /* Resolución para dispositivos móviles muy pequeños */
 @media (max-width: 575px) {
+  .offcanvas-start-calendars{
+    display: block;
+  }
+  .radios-date{
+    justify-content: space-around;
+  }
+  
   .mis-servicios aside {
     display: none;
   }
@@ -13,6 +20,13 @@
 
 /* Resolución para dispositivos móviles pequeños */
 @media (min-width: 576px) and (max-width: 767px) {
+  .offcanvas-start-calendars{
+    display: block;
+  }
+  .radios-date{
+    justify-content: space-around;
+  }
+
   .mis-servicios aside {
     display: none;
   }
@@ -26,11 +40,15 @@
 
 /* Resolución para tablets */
 @media (min-width: 768px) and (max-width: 991px) {
+  .offcanvas-start-calendars{
+    display: none !important;
+  }
   .radios-date {
     flex-direction: row;
     justify-content: space-evenly;
   }
   .mis-servicios aside {
+    display: block;
     width: 40%;
   }
   .mis-servicios main {
@@ -43,10 +61,15 @@
 
 /* Resolución para PC de escritorio */
 @media (min-width: 972px) {
+  .offcanvas-start-calendars{
+    display: none !important;
+  }
   .radios-date {
     justify-content: space-evenly;
   }
   .mis-servicios aside {
+    display: block;
+
     height: 100%;
     width: 20%;
   }

@@ -1,6 +1,6 @@
-import { formAuth, eventDateRanges } from '../events/index.js'
+import { formAuth, eventDateRanges, eventDateRangesResp } from '../events/index.js'
 import { showUserName } from'../components/index.js';
-import { detectWindow,validateSessionToken, singOff } from '../helper/index.js';
+import { detectWindow,validateSessionToken, mainMenu } from '../helper/index.js';
 import { apexChart, loadedComponents } from '../util/index.js'
 class Main{
     constructor(){
@@ -22,7 +22,8 @@ class Main{
             showUserName();
             apexChart();
             eventDateRanges();
-            singOff();
+            eventDateRangesResp();
+            mainMenu();
         }
     }
 

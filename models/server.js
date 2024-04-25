@@ -15,6 +15,7 @@ class Server {
       login: "/login",
       register: "/register",
       home: "/home",
+      reports: "/reports",
     };
 
     this.apiPaths = {
@@ -68,11 +69,18 @@ class Server {
       this.pages.register,
       require("../routers/render/register.routes.js")
     );
-    this.app.use(this.pages.home, require("../routers/render/home.routes.js"));
+    this.app.use(this.pages.home, 
+      require("../routers/render/home.routes.js")
+    );
+    this.app.use(
+      this.pages.reports,
+      require("../routers/render/reports.routes.js")
+    );
     this.app.use(
       this.pages.notFound,
       require("../routers/render/404.routes.js")
     );
+
   }
 
   router() {

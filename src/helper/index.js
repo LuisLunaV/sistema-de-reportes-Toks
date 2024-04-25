@@ -2,7 +2,7 @@ import { formData } from './formData.js';
 import { authFailure } from './validators/validateAuthentication.js';
 import { validateSessionToken } from './validators/validateSessionToken.js';
 import { detectWindow } from './detectWindow.js';
-import { singOff } from './singOff.js';
+import { mainMenu } from './mainMenu.js';
 
 
 export{
@@ -10,5 +10,5 @@ export{
     formData,
     authFailure,
     validateSessionToken,
-    singOff
+    mainMenu
 }
