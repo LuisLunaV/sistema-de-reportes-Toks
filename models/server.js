@@ -37,9 +37,11 @@ class Server {
     this.app.set("view engine", "hbs");
     // Set the location of partial files
     const filePath = path.resolve(__dirname, "../views/partials");
+    const filePathNav = path.resolve(__dirname, "../views/partials/navbar");
     const filePathDate = path.resolve(__dirname, "../views/dateRanges");
     const filePathReport = path.resolve(__dirname, "../views/reports");
     hbs.registerPartials(filePath);
+    hbs.registerPartials(filePathNav);
     hbs.registerPartials(filePathDate);
     hbs.registerPartials(filePathReport);
   }

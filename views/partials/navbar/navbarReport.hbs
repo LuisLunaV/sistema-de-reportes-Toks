@@ -1,0 +1,43 @@
+<nav class="navbar navbar-expand-lg navbar-dark color-empresarial">
+  <div class="container-btn-name container-fluid ">
+    
+      <div class="btn-group dropstart btn-secundario">
+      <button
+        type="button"
+        class="btn btn-secondary btn-drop"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        <i class="bi bi-list"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" type="button" id="view-chart-dos">Regresar</a></li>
+        <li><a class="dropdown-item" type="button" id="cerrarSesionDos"><strong>Cerrar sesion</strong></a></li>
+      </ul>
+    </div>
+
+    <div class="btn-group dropend btn-principal">
+      <button
+        type="button"
+        class="btn btn-secondary btn-drop"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        <i class="bi bi-list"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" type="button" id="view-charts">Regresar</a></li>
+        <li><a class="dropdown-item" type="button" id="cerrarSesion"><strong>Cerrar sesion</strong></a></li>
+      </ul>
+    </div>
+          <div class="style-name-perfil" id="cont-name-perfil-report">
+           {{!-- user name span --}}
+          </div>
+
+      <div class="container-btn-calendar">
+        <button class="btn btn-secondary btn-calendar-range" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+          <i class="bi bi-calendar-check"></i>
+        </button>
+      </div>
+  </div>
+</nav>

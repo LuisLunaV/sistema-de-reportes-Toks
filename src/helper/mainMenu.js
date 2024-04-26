@@ -6,16 +6,16 @@ export const mainMenu =()=>{
 }
 
 const viewReports=()=>{
-const btnViewReports = document.querySelector('#visualizar-reportes');
-
+console.log('report')
+  const btnViewReports = document.querySelector('#visualizar-reportes');
+if( !btnViewReports )return;
 btnViewReports.addEventListener('click',( event )=>{
-  console.log('saludo')
 window.location.replace('/reports')
 });
 }
 
 const singOff = () => {
-  const btnCerrar = document.querySelector("#cerrarSesion"),
+  const btnCerrar    = document.querySelector("#cerrarSesion"),
         btnCerrarDos = document.querySelector("#cerrarSesionDos");
 
   btnCerrar.addEventListener("click", () => {
