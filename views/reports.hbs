@@ -4,12 +4,18 @@
 
 <div class="mis-servicios">
 {{> offCanvaDataRange}}
-<aside>
-{{> dataRange}}
-</aside>
+<aside class="container-form-reports">
 
-<main class="container">
-  
+<form id="form-date-ranges" method="post">
+{{> dataRange}}
+{{> reportsList}}
+{{> plazas}}
+{{> salidas}}
+</form>
+
+</aside>
+<main class="container-reports" id="pdf-container">
+  {{!-- <iframe src="assets/VueJS-atajos.pdf"  width="100%" height="100%" frameborder="0"></iframe> --}}
 </main>
   </div>
 {{> footer}}

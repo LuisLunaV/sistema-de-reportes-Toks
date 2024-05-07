@@ -1,0 +1,28 @@
+/* .select-report{
+    background-color:#fff;
+    border-radius: 3px;
+    padding: 0 10px;
+
+} */
+
+#pdf-container {
+    width: 80%; /* Ancho del "contenedor" del PDF */
+    height: 100%; /* Altura del "contenedor" del PDF */
+    background-color: #fff; /* Color de fondo del "contenedor" */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para simular profundidad */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para simular un mensaje de "PDF no encontrado" */
+#pdf-container::before {
+    content: "PDF no encontrado";
+    color: #666;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container-form-reports{
+    overflow: scroll;
+}

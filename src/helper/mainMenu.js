@@ -6,7 +6,7 @@ export const mainMenu =()=>{
 }
 
 const viewReports=()=>{
-console.log('report')
+
   const btnViewReports = document.querySelector('#visualizar-reportes');
 if( !btnViewReports )return;
 btnViewReports.addEventListener('click',( event )=>{

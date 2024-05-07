@@ -30,7 +30,6 @@ class Main{
 
     reports(){
         if( this.window === '/reports'){
-            console.log('reports')
             validateSessionToken();
             showUserNameReport();
             eventDateRanges();
