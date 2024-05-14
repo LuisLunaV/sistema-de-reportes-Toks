@@ -2,7 +2,7 @@
 <div class="mb-3 radios-date">
 
   <div class="form-check">
-  <input class="form-check-input" type="radio" name="flexRadioDefault" id="radioHoy">
+  <input class="form-check-input" type="radio" name="radioMes" id="radioHoy">
   <label class="form-check-label" for="radioHoy">
     Hoy
   </label>
@@ -10,7 +10,7 @@
 
 <!-- Elemento de radio para "Ayer" -->
 <div class="form-check">
-  <input class="form-check-input" type="radio" name="flexRadioDefault" id="radioAyer">
+  <input class="form-check-input" type="radio" name="radioMes" id="radioAyer">
   <label class="form-check-label" for="radioAyer">
     Ayer
   </label>
@@ -18,7 +18,7 @@
 
 <!-- Elemento de radio para "Semana" -->
 <div class="form-check">
-  <input class="form-check-input" type="radio" name="flexRadioDefault" id="radioSemana">
+  <input class="form-check-input" type="radio" name="radioMes" id="radioSemana">
   <label class="form-check-label" for="radioSemana">
     Semana
   </label>
@@ -26,7 +26,7 @@
 
 <!-- Elemento de radio para "Mes" -->
 <div class="form-check">
-  <input class="form-check-input" type="radio" name="flexRadioDefault" id="radioMes">
+  <input class="form-check-input" type="radio" name="radioMes" id="radioMes">
   <label class="form-check-label" for="radioMes">
     Mes
   </label>
@@ -35,8 +35,8 @@
 </div>
 
 <div class="mb-3 calendar-start-end">
-    <label for="selectMeses" class="form-label">Mes:</label>
-      <select class="form-select" id="selectMeses" aria-label="Selecciona un mes del año" name="meses" >
+    <label for="selectMeses" class="form-label"> <strong>Mes:</strong></label>
+      <select class="form-select meses" id="selectMeses" aria-label="Selecciona un mes del año" name="meses" >
       <option selected disabled>Seleccione el mes</option>
       <option value="1">Enero</option>
       <option value="2">Febrero</option>
@@ -56,13 +56,17 @@
 <div class="mb-3 calendar-start-end">
    <div class="mb-3 date-init">
      <label for="start-date" class="form-label">
-          Inicio
+      <strong>
+          Inicio:
+      </strong>
          </label>
          <input type="date" class="form-control" name="consultDate" id="start-date" aria-describedby="helpId">
        </div>
         <div class="mb-3 date-end">
            <label for="end-date" class="form-label">
-          Final
+           <strong>
+          Final:
+           </strong>
          </label>
          <input type="date" class="form-control" name="consultDate" id="end-date" aria-describedby="helpId">
        </div>
