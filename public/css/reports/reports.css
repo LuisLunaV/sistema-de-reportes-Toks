@@ -1,28 +1,65 @@
-/* .select-report{
-    background-color:#fff;
-    border-radius: 3px;
-    padding: 0 10px;
+/* Resolución para dispositivos móviles muy pequeños */
+@media (max-width: 575px) {
+  .radios-output {
+    justify-content: space-around;
+  }
+}
 
-} */
+/* Resolución para dispositivos móviles pequeños */
+@media (min-width: 576px) and (max-width: 767px) {
+  .radios-output {
+    justify-content: space-around;
+  }
+}
 
+/* Resolución para tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  .radios-output {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+/* Resolución para PC de escritorio */
+@media (min-width: 972px) {
+  .radios-output {
+    justify-content: space-evenly;
+  }
+}
+
+.div-tittle{
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+.div-container-check{
+  background-color: #fff;
+}
 #pdf-container {
-    width: 80%; /* Ancho del "contenedor" del PDF */
-    height: 100%; /* Altura del "contenedor" del PDF */
-    background-color: #fff; /* Color de fondo del "contenedor" */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para simular profundidad */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 80%; /* Ancho del "contenedor" del PDF */
+  height: 100%; /* Altura del "contenedor" del PDF */
+  background-color: #fff; /* Color de fondo del "contenedor" */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para simular profundidad */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Estilos para simular un mensaje de "PDF no encontrado" */
 #pdf-container::before {
-    content: "PDF no encontrado";
-    color: #666;
-    font-size: 24px;
-    font-weight: bold;
+  content: "PDF no encontrado";
+  color: #666;
+  font-size: 24px;
+  font-weight: bold;
 }
 
-.container-form-reports{
-    overflow: scroll;
+.container-form-reports {
+  overflow: scroll;
+}
+
+.radios-output {
+  display: flex;
+  flex-direction: row;
 }

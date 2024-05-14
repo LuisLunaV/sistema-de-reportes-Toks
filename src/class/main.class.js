@@ -1,4 +1,4 @@
-import { formAuth, eventDateRanges, eventDateRangesResp } from '../events/index.js'
+import { formAuth, eventDateRanges, eventDateRangesResp, eventSelectReports } from '../events/index.js'
 import { showUserName, showUserNameReport } from'../components/index.js';
 import { detectWindow,validateSessionToken, mainMenu } from '../helper/index.js';
 import { apexChart, loadedComponents } from '../util/index.js'
@@ -32,8 +32,7 @@ class Main{
         if( this.window === '/reports'){
             validateSessionToken();
             showUserNameReport();
-            eventDateRanges();
-            eventDateRangesResp();
+            eventSelectReports();
             mainMenu();
         }
     }
