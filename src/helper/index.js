@@ -3,6 +3,7 @@ import { authFailure } from './validators/validateAuthentication.js';
 import { validateSessionToken } from './validators/validateSessionToken.js';
 import { detectWindow } from './detectWindow.js';
 import { mainMenu } from './mainMenu.js';
+import { dateRangeChanges } from './datesRanges/dateRangesChanges.js';
 
 
 export{
@@ -10,5 +11,6 @@ export{
     formData,
     authFailure,
     validateSessionToken,
-    mainMenu
+    mainMenu,
+    dateRangeChanges
 }
